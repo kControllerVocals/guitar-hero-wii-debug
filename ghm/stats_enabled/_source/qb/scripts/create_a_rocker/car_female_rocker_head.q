@@ -1,0 +1,174 @@
+cas_female_hair_random_colors = [
+	{
+		color = carblack_1
+		random_weight = 1.0
+	}
+	{
+		color = hairorange_3
+		random_weight = 1.0
+		genre = [
+			rock
+			pop
+			`glam rock`
+			`classic rock`
+		]
+	}
+	{
+		color = hairred_orange_3
+		random_weight = 1.0
+		genre = [
+			rock
+			pop
+			`glam rock`
+			`classic rock`
+		]
+	}
+	{
+		color = yellow_4
+		random_weight = 1.0
+		genre = [
+			punk
+			`heavy metal`
+			`glam rock`
+			pop
+			rock
+			`classic rock`
+			`black metal`
+		]
+	}
+	{
+		color = yellow_2
+		random_weight = 1.0
+		genre = [
+			punk
+			`heavy metal`
+			`glam rock`
+			pop
+			rock
+			`classic rock`
+		]
+	}
+	{
+		color = red_2
+		random_weight = 1.0
+		genre = [
+			punk
+			goth
+			rock
+		]
+	}
+	{
+		color = skin_latin3
+		random_weight = 1.0
+		genre = [
+			punk
+			`heavy metal`
+			`glam rock`
+			pop
+			rock
+			`classic rock`
+		]
+	}
+	{
+		color = skin_latin4
+		random_weight = 1.0
+		genre = [
+			punk
+			`heavy metal`
+			`glam rock`
+			pop
+			rock
+			`classic rock`
+		]
+	}
+	{
+		color = skin_latin5
+		random_weight = 1.0
+		genre = [
+			punk
+			`heavy metal`
+			`glam rock`
+			pop
+			rock
+			`classic rock`
+		]
+	}
+	{
+		color = blue_3
+		random_weight = 1.0
+		genre = [
+			punk
+			goth
+		]
+	}
+	{
+		color = blue_1
+		random_weight = 1.0
+		genre = [
+			punk
+			goth
+		]
+	}
+	{
+		color = teal_3
+		random_weight = 0.5
+		genre = [
+			punk
+			goth
+		]
+	}
+	{
+		color = green_1
+		random_weight = 0.5
+		genre = [
+			punk
+			goth
+		]
+	}
+	{
+		color = grey_5
+		random_weight = 0.5
+		genre = [
+			`black metal`
+		]
+	}
+	{
+		color = brightpink_3
+		random_weight = 0.5
+		genre = [
+			punk
+			goth
+			pop
+		]
+	}
+	{
+		color = purple_blue_1
+		random_weight = 0.5
+		genre = [
+			punk
+			goth
+		]
+	}
+]
+cas_female_hair_common_settings = {
+	color_all_materials
+	modify_all_materials
+	shader = $cas_shader_hair
+	random_colors = $cas_female_hair_random_colors
+}
+cas_female_hair_common_settings_skinshader = {
+	color_all_materials
+	modify_all_materials
+	shader = $cas_shader_skin
+	random_colors = $cas_female_hair_random_colors
+}
+cas_female_hat_hair_common_settings = {
+	color_all_materials
+	modify_all_materials
+	shader = $cas_shader_hair
+}
+cas_female_hat_hair_common_settings_skinshader = {
+	color_all_materials
+	modify_all_materials
+	shader = $cas_shader_skin
+}
