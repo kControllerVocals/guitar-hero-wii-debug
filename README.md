@@ -15,5 +15,7 @@ to have a working wbfs for real hardware use wit and run
   wit copy "path to extracted folder" "path to rom.wbfs"
 ```
 Guitar Hero Metallica include statistics on the screen
+
 for playability the default qb disables it
+
 if for some reason you want it it's in the "stats_enabled" folder
